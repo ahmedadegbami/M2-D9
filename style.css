@@ -1,0 +1,42 @@
+
+.jumbo {
+    animation: fade-in 5s;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+.badger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.5em;
+}
+
+.card1 {
+    position: relative;
+}
+
+.table-bg {
+    background-color: #e3f2fd;
+}
+
+
+.box-shadow {
+    
+    transition: box-shadow 0.10s;
+}
+
+.box-shadow:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}   
